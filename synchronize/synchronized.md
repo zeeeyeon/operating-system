@@ -23,6 +23,6 @@
 > - lock 을 걸지 않은 스레드도 시그널을 보내 lock 해제 가능
 
 > 스레드 5개로 3개의 공유자원에 접근하는 semaphore test 실행 결과
-> ![img.png](assets/semaphore_result.png)
+>> ![img.png](assets/semaphore_result.png)
 
 
