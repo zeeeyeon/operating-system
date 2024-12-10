@@ -1,4 +1,4 @@
-package synchronize;
+package synchronizationTools;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

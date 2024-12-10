@@ -1,4 +1,4 @@
-package synchronize;
+package synchronizationTools;
 
 public class PetersonAlgorithm_1 {
     static int count = 0;

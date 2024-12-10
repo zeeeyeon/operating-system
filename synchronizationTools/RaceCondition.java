@@ -1,4 +1,4 @@
-package synchronize;
+package synchronizationTools;
 
 class RunnableExample implements Runnable {
     /*

@@ -1,4 +1,4 @@
-package synchronize;
+package synchronizationTools;
 
 import java.util.concurrent.Semaphore;
 
