@@ -59,4 +59,6 @@ public class SemaphoreExample {
     스케줄러를 사용하여 semaphore 가 not positive(== wait) 해야 한다 자기 자신을 웨이팅 큐에 가서 대기 하게 만듬
     다른 프로세스가 시그널을 보낸다면 그때 웨이팅 큐에서 대기하고 있던 애들을 레다큐에 넣어서 실행시킴 (커널 레벨에서 실행)
 
+    acquire 할 때, wait() 걸기 (p - operation)
+    release 할 때, signal 주기 (v - operation)
 */

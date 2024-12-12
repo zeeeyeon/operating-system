@@ -1,5 +1,6 @@
 package synchronizationTools;
 
+// 생산자 - 소비자 패턴, 동기화 된 버퍼로 용돈 주고 받기
 public class BoundedBuffer {
 
     class ProdRunner implements Runnable {

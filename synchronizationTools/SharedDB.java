@@ -4,7 +4,7 @@ public class SharedDB {
 
     // 현재 읽고 있는 프로세스가 몇개인지 체크
     private int readerCount = 0;
-    // 현재 내가 쓰고 있는 상태인지 boolean 으로
+    // 현재 내가 쓰고 있는 상태인지
     private boolean isWriting = false;
 
     public void read() {
