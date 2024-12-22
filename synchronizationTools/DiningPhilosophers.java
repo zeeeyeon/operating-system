@@ -130,7 +130,7 @@ public class DiningPhilosophers {
 
 /*
 
-    * Thread-safe : concurrent 하게 돌려도 문제가 발생하지 않음 (mutex, semaphore, monitor 를 사용하여 thread-safe 만들어도 괜찮지민 대안이 존재함)
+    * Thread-safe : concurrent 하게 돌려도 문제가 발생하지 않음 (mutex, semaphore, monitor 를 사용하여 thread-safe 만들어도 괜찮지만 대안이 존재함)
     1. transactional memory : atomic operation,  입금과 출금은 별도의 트랜젝션이지만 얘를 별도로 일어난 것은 아예 일어나지 않은 것으로 하겠다 (== rollback)
         - 실행 단위의 메모리 자체를 트랜젝션하게 만들겠다.
 
