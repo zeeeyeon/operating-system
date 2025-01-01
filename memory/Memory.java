@@ -5,7 +5,7 @@ public class Memory {
 
 /*
     memory
-    - cpu 는 메모리에서 인스트럭트를 fetch 프로그램 카운트가 지정하는 주소에 있는 인스트럭트를 가져와서 실행하는데
+    - cpu 는 메모리에서 인스트럭트를 fetch, 프로그램 카운트가 지정하는 주소에 있는 인스트럭트를 가져와서 실행하는데
     이 인스트럭트도 load, store 존재 (메모리에 엑세스 함)
     - 메모리의 주소 공간
     base register, limit register 를 지정하여 접근하려하는 메모리 공간을 보호함
@@ -56,7 +56,7 @@ public class Memory {
     페이지 사이즈 계산법 알아놓기
 
     페이지 테이블 관리하는 것도 쉽지않음(워낙 크기 때문에)
-    page-table base register 의 주소값만 저장(두 번의 메모리 참조가 일어남)
+    page-table base register(PTBR 의 주소값만 저장(두 번의 메모리 참조가 일어남)
     - 페이지 테이블에 가서 테이블 번호 가져오기
     - 실제 메모리에 엑세스
 
@@ -245,6 +245,5 @@ public class Memory {
         - FAT, 어떤 볼륨에 링크드 리스트의 인덱스를 넣어보기(모든 포인터들을 인덱스 블럭에 담아놓기)
 
     - free-space management 관리
-
 */
 
